@@ -1,8 +1,10 @@
 // main.dart
+import 'package:ecommerce_app/GetStarted.dart';
 import 'package:ecommerce_app/loginPages/SignIn.dart';
 import 'package:ecommerce_app/loginPages/SplashScreen03.dart';
 import 'package:flutter/material.dart';
 
+import 'HomePage.dart';
 import 'loginPages/ForgotPassword.dart';
 import 'loginPages/SignUp.dart';
 import 'loginPages/SplashScreen02.dart';
@@ -17,9 +19,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: SignIn(), // Set SplashScreen as the home widget
+    return SafeArea(
+      child: MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: Homepage(), // Set SplashScreen as the home widget
+      ),
     );
   }
 }

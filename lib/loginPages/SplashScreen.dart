@@ -8,7 +8,7 @@ class SplashScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white, // Changed to white to match the image shown
       body: Center(
-        child: Container(
+        child: SizedBox(
           width: 200, // Adjust based on your needs
           height: 100, // Adjust based on your needs
           child: Image.asset(

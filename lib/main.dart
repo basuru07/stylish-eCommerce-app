@@ -1,4 +1,5 @@
 // main.dart
+import 'package:ecommerce_app/Profile.dart';
 import 'package:ecommerce_app/ShopPage.dart';
 import 'package:ecommerce_app/TrendingPage.dart';
 import 'package:ecommerce_app/widgets/ShopCard.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
     return SafeArea(
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: ShopPage(), // Set SplashScreen as the home widget
+        home: Profile(), // Set SplashScreen as the home widget
       ),
     );
   }

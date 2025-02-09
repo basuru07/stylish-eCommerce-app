@@ -17,9 +17,15 @@
 
 ## Screenshots
 
-<!-- Add screenshots of your app here -->
-![Screenshot 1](screenshots/screen1.png)
-![Screenshot 2](screenshots/screen2.png)
+<!-- Add screenshots of your app here in a row-wise format -->
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/27f2f027-d5ee-47d6-bd44-56b2721e2738" width="150" alt="Screen 1">
+  <img src="https://github.com/user-attachments/assets/151a48e5-e188-4fe5-a194-6d4bfc9a0024" width="150" alt="Screen 3">
+  <img src="https://github.com/user-attachments/assets/f2261fb6-f523-4b8e-9926-ae354bb4bbf9" width="150" alt="Screen 2">
+  <img src="https://github.com/user-attachments/assets/745282ad-6734-4082-abf0-3222655a3fea" width="150" alt="Screen 5">
+  <img src="https://github.com/user-attachments/assets/6e5532d3-cc92-4fde-9c82-e0edef8d6817" width="150" alt="Screen 4">
+ 
+</div>
 
 ---
 

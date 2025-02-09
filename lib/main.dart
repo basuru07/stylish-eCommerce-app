@@ -1,4 +1,6 @@
 // main.dart
+import 'package:ecommerce_app/TrendingPage.dart';
+import 'package:ecommerce_app/widgets/ShopCard.dart';
 import 'package:flutter/material.dart';
 
 import 'HomePage.dart';
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
     return SafeArea(
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: Homepage(), // Set SplashScreen as the home widget
+        home: TrendingPage(), // Set SplashScreen as the home widget
       ),
     );
   }
